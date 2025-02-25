@@ -1,3 +1,6 @@
+henüz başarısız. Ciddi hatalar var ama tek tek tüm kodlar gözden geçirilirse ve datylar incelenirse biraz daha temiz sonuçlar çıkabilir
+
+
 # debh
 
 DEBH (Dizonomik Endokrin Bozukluklar Hipotiroidizmi) gibi sağlık sorunları yaşayan bireyler için hatırlatmalar ve günlük rutin iş akışlarını takip edebilecekleri bir JavaScript uygulaması oluşturmak oldukça faydalı bir fikir. Bu tür bir uygulama, kullanıcıların tedavi ve bakım süreçlerini düzenlemelerine yardımcı olabilir.
