@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEBH Rutin Takip Uygulaması</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>DEBH Günlük Takip Uygulaması</h1>
+  </header>
+
+  <section class="reminder-section">
+    <h2>Hatırlatmalar</h2>
+    <form id="reminder-form">
+      <label for="task">Görev: </label>
+      <input type="text" id="task" placeholder="Görev ekleyin" required>
+      <label for="time">Saat: </label> 
+      <input type="time" id="time" required> 
+      <button type="submit">Görev Ekle</button>
+    </form>
+    <ul id="reminder-list"></ul>
+  </section>
+
+  <!-- Hatırlatmalar kısmı -->
+<!-- <section class="reminder-section-button">
+    <h2>Hatırlatmalar2</h2>
+    <form id="reminder-form-button">
+      <label for="task">Görev: </label>
+      <input type="text" id="task-button" placeholder="Görev ekleyin" required>
+      <label for="time">Saat: </label>
+      <input type="time" id="time-button" required>
+      <button type="submit">Görev Ekle</button>
+    </form>
+    <ul id="reminder-list-button"></ul>
+  </section> -->
+  
+
+  <section class="mood-section">
+    <h2>Günlük Durum Girişi</h2>
+    <form id="mood-form">
+      <label for="mood">Ruh Haliniz: </label>
+      <select id="mood">
+        <option value="good">İyi</option>
+        <option value="ok">Ortalama</option>
+        <option value="bad">Kötü</option>
+      </select>
+      <label for="energy">Enerji Seviyeniz: </label>
+      <input type="number" id="energy" min="1" max="10" placeholder="1-10" required>
+      <button type="submit">Durum Kaydet</button>
+    </form>
+  </section>
+
+  <section class="data-display-section">
+    <h2>Girilen Veriler</h2>
+    <div id="display-area">
+      <!-- Burada veriler görüntülenecek -->
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>© 2025 DEBH Takip Uygulaması</p>
+  </footer>
+
+  <script src="./debh.js"></script>
+  <script src="./debh.css"></script>
+</body>
+</html>
